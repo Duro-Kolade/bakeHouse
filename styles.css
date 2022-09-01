@@ -1,0 +1,129 @@
+/* NAVBAR STYLE */
+.navbar{
+    background-color: #ff6347;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+        
+}
+
+a{
+    text-decoration: none;
+}
+
+/* END OF NAVBAR */
+
+/*  */
+
+/*Welcome begins  */
+.welcome{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-image: url(logo3.png);
+    background-size: cover;
+    
+}
+/* Welcome ends */
+
+/*menu  */
+
+
+
+.main-container{
+    /* height: 900px;
+    width: 400px; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: azure;
+    
+}
+
+.dd
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.sam, h3{
+    text-align: center;
+}
+
+
+        /* The 0wner */
+/* .about{
+    display: flex
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+.boss, .table{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    opacity: 0.2;
+}
+
+.about{
+    /* background-color: pink; */
+}
+/* END OF THE OWNER */
+
+
+.reg{
+    text-align: center;
+    box-shadow: 8px 5px 30px3;
+}
+
+input[type=text]{
+    border:2px solid black;
+    width: 200px;
+    border-radius: 20px;
+}
+
+input[type=email]{
+    border:2px solid black;
+    width: 200px;
+    border-radius: 20px;
+}
+
+input[type=password]{
+    border:2px solid black;
+    width: 200px;
+    border-radius: 20px;
+}
+
+input[type=date]{
+    border:2px solid black;
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+.last{
+    background-image: url(drip.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+.nn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+@media(max-width: 425px){
+    .container1{background-color: blue;}
+}
